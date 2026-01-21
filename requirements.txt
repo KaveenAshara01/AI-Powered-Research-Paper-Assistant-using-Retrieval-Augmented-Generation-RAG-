@@ -1,0 +1,25 @@
+# Core
+torch
+transformers
+accelerate
+bitsandbytes
+scikit-learn
+
+# RAG & Embeddings
+langchain>=0.1.0
+langchain-community
+sentence-transformers
+faiss-cpu  # Use faiss-gpu if you have a supported GPU
+pypdf
+
+# LLM Quantization & Fine-Tuning
+peft
+datasets
+trl
+
+# UI
+streamlit
+
+# Utils
+python-dotenv
+tiktoken
